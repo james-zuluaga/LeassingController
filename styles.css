@@ -95,3 +95,25 @@ footer .logo {
 	font-size: 30px;
 	text-align: center;
 }
+
+.class1 {
+    display: flex;
+     background-color: rgba(0, 0, 0, 0.692);;
+     color: rgb(255, 254, 254);
+     font-family: "Bebas Neue"; /* ingreso el nombre de la fuente que importe de google fonts */
+     width: auto;
+     height: auto;
+     padding: 20px;
+     margin: 10px;  /* si pongo 0 auto lo que hace es centrarlo en la pagina */ 
+     align-content: center;
+     background-position: center center;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     }
+
+.apto{
+  background-color: #003459;
+  padding: 10px;
+  margin: 10px;
+}

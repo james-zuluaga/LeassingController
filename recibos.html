@@ -2,31 +2,142 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUMA</title>
-    <link rel="stylesheet" href="styles1.css">
-  </head>
-<header>
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="flexboxgrid.css">
+</head>
 
-</header>
+
+<header>
+    <div class="logo-menu">
+      <div class="container">
+        <div class="row middle-xs between-xs">
+          <div class="logo col-xs-12 col-sm-4 center-xs start-sm"><h2></h2> <img src="LOGO.jpg" width="250px"></div>
+          <nav class="menu col-xs-12 col-sm-8 center-xs end-sm">
+            <a href="index.html">Inicio</a>
+            <a href="recibos.html">Servicios</a>
+            <a href="http://www.falconmasters.com">Registrate</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="submenu">
+      <div class="container">
+        <div class="row center-xs">
+          <div class="col-xs">
+            <nav>
+              <a href="#">Populares</a>
+              <a href="#">Recientes</a>
+              <a href="#">Favoritos</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 <body>
     <div class="class1">
-        <h1>SERVICIO DE ENERGIA </h1>  
-        
-        <h2>se deben ingrear los siguientes datos </h2>
-        
-        valor kw sin subsidio <input type="number" id="pal1" placeholder="kw sin"> 
-        <br>valor inicial contador <input type="number" id="pal2" placeholder="Num 2">
-        <br>valor final  contador<input type="number" id="pal3" placeholder="kw sin"> 
-       
- 
-    <button id="boton" onclick="sumar()">calcular</button>
-        <button  id="resultado"></button> </p>
-        <button  id="consumo"></button> </p>
-        <button  id="resultado"></button> </p>
-        <button  id="vrsub"></button> </p>
+        <div class="apto">
+            <h1>SERVICIO DE ENERGIA APTO 301</h1>         
+            <h2>se deben ingrear los siguientes datos </h2>        
+            valor kw sin subsidio <input type="number" id="pal1" placeholder="kw sin"> 
+            <br>valor inicial contador <input type="number" id="pal2" placeholder="Num 2">
+            <br>valor final  contador<input type="number" id="pal3" placeholder="kw sin"> <br>
+            <button id="boton301" onclick="sumar301()">calcular</button> <br>
+            <button  id="vrsub301"></button>  <br>
+            <button  id="resultado301"></button> <br>
+            <button  id="consumo301"></button>  <br>
+            <script src="scripcal.js"></script>
+        </div>
+    <div class="apto">
+        <h1>SERVICIO DE ENERGIA APTO 302</h1>         
+        <h2>se deben ingrear los siguientes datos </h2>        
+        valor kw sin subsidio <input type="number" id="pal4" placeholder="kw sin"> 
+        <br>valor inicial contador <input type="number" id="pal5" placeholder="Num 2">
+        <br>valor final  contador<input type="number" id="pal6" placeholder="kw sin"> <br>
+        <button id="boton302" onclick="sumar302()">calcular</button> <br>
+        <button  id="vrsub302"></button>  <br>
+        <button  id="resultado302"></button> <br>
+        <button  id="consumo302"></button>  <br>
         <script src="scripcal.js"></script>
+    </div>
+    <div class="apto">
+        <h1>SERVICIO DE ENERGIA APTO 401</h1>         
+        <h2>se deben ingrear los siguientes datos </h2>        
+        valor kw sin subsidio <input type="number" id="pal7" placeholder="kw sin"> 
+        <br>valor inicial contador <input type="number" id="pal8" placeholder="Num 2">
+        <br>valor final  contador<input type="number" id="pal9" placeholder="kw sin"> <br>
+        <button id="boton401" onclick="sumar401()">calcular</button> <br>
+        <button  id="vrsub401"></button>  <br>
+        <button  id="resultado401"></button> <br>
+        <button  id="consumo401"></button>  <br>
+        <script src="scripcal.js"></script>
+    </div>
 
+    <div class="apto">
+        <h1>Total a pagar servicios es </h1>         
+        <button id="sumTotalSer" onclick="sumTotalSer()">Calcular</button> <br>
+        <button  id="sumTotalSer"></button>  <br>
+        <script src="scripcal.js"></script>
+    </div>
+  
+</div>
+  <div class="main">
+    <div class="container">
+      <div class="row around-xs">
+        <div class="thumb col-xs-6 col-sm-4 col-md-3 ">
+          <img src="http://lorempixel.com/470/470/city/1" alt="">
+        </div>
 
-</body>
-</html>
+        <div class="thumb col-xs-6 col-sm-4 col-md-3 ">
+          <img src="http://lorempixel.com/470/470/city/2" alt="">
+        </div>
+
+        <div class="thumb col-xs-6 col-sm-4 col-md-3 ">
+          <img src="http://lorempixel.com/470/470/city/3" alt="">
+        </div>
+
+        <div class="thumb col-xs-6 col-sm-4 col-md-3 ">
+          <img src="http://lorempixel.com/470/470/city/4" alt="">
+        </div>
+
+        <div class="thumb col-xs-6 col-sm-4 col-md-3 ">
+          <img src="http://lorempixel.com/470/470/city/5" alt="">
+        </div>
+
+        <div class="thumb col-xs-6 col-sm-4 col-md-3 ">
+          <img src="http://lorempixel.com/470/470/city/6" alt="">
+        </div>
+
+        <div class="thumb col-xs-6 col-sm-4 col-md-3 ">
+          <img src="http://lorempixel.com/470/470/city/7" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row middle-xs between-xs">
+        <div class="col-xs-12 col-sm-4">
+          <div class="nav">
+            <a href="#">Inicio</a>
+            <a href="#">Trabajos</a>
+            <a href="#">Terminos y Condiciones</a>
+            <a href="#">Contacto</a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-4">
+          <div class="logo">LEASSING CONTROLLER</div>
+        </div>
+      </div>
+      </div>
+
+      <body>
+    
+      </body>
+      </html>
