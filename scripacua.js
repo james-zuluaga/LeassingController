@@ -3,7 +3,15 @@
  let consumo301=0;
  let consumo302=0;
  let consumo401=0;
- function sumar301(){
+ let aResidencial=0;
+ let subsidioRes=0;
+ let cargofiNores=0;
+ let aporte=0;
+ let toAseo=0;  
+ let totalRec=0;
+ let aBodega=0;
+
+ function sumaAc201(){
 
    let suma301=0;
    let vrKwSin301=Number(document.getElementById(`pal1`).value);
@@ -11,7 +19,7 @@
    let vfinal301=Number(document.getElementById(`pal3`).value);
    let vrsub301=vrKwSin301/2;
    let resultado301= vfinal301-vinicial301;
-   consumo301= resultado301*vrsub301;
+   consumo301= resultado301*vrKwSin301;
       document.getElementById('resultado301').textContent = 'los Kw consumidos son : ' + resultado301;
       document.getElementById('consumo301').textContent = 'el valor a pagar es: ' + consumo301;
       document.getElementById('vrsub301').textContent = 'el valor del kw con subsidio es: $' + vrsub301;
@@ -25,7 +33,7 @@
    let vfinal302=Number(document.getElementById(`pal6`).value);
    let vrsub302=vrKwSin302/2;
    let resultado302= vfinal302-vinicial302;
-   consumo302= resultado302*vrsub302;
+   consumo302= resultado302*vrKwSin302;
       document.getElementById('resultado302').textContent = 'los Kw consumidos son : ' + resultado302;
       document.getElementById('consumo302').textContent = 'el valor a pagar es: ' + consumo302;
       document.getElementById('vrsub302').textContent = 'el valor del kw con subsidio es: $' + vrsub302;
@@ -38,7 +46,7 @@
    let vfinal401=Number(document.getElementById(`pal9`).value);
    let vrsub401=vrKwSin401/2;
    let resultado401= vfinal401-vinicial401;
-   consumo401= resultado401*resultado401;
+   consumo401= resultado401*vrKwSin401;
       document.getElementById('resultado401').textContent = 'los Kw consumidos son : ' + resultado401;
       document.getElementById('consumo401').textContent = 'el valor a pagar es: ' + consumo401;
       document.getElementById('vrsub401').textContent = 'el valor del kw con subsidio es: $' + vrsub401;
@@ -52,14 +60,6 @@
      //////////////////////// calcular acueducto
 
      // aseo 
-
-let aResidencial=0;
- let subsidioRes=0;
- let cargofiNores=0;
- let aporte=0;
- let toAseo=0;  
- let totalRec=0;
- let aBodega=0;
 
  //// acueducto
 let vaAcueducto=0;
